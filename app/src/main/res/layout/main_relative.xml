@@ -3,4 +3,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/textViewTitleRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:text="IMC"
+        android:textColor="@color/title_color"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextPesoRelative"
+        style="@style/style_inserir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitleRelative"
+        android:hint="Digite seu Peso (Ex: 75.2 kg)"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/editTextAlturaRelative"
+        style="@style/style_inserir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPesoRelative"
+        android:hint="Digite sua Altura (Ex: 1.81 m)"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/buttonCalcularRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAlturaRelative"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp"
+        android:text="CALCULAR"
+        android:textSize="16dp" />
+
 </RelativeLayout>

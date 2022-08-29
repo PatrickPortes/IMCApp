@@ -9,7 +9,7 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/textViewTitle"
+        android:id="@+id/textViewTitleLinear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -19,7 +19,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextPeso"
+        android:id="@+id/editTextPesoLinear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
@@ -27,7 +27,7 @@
         style="@style/style_inserir" />
 
     <EditText
-        android:id="@+id/editTextAltura"
+        android:id="@+id/editTextAlturaLinear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
@@ -35,7 +35,7 @@
         style="@style/style_inserir" />
 
     <Button
-        android:id="@+id/buttonCalcular"
+        android:id="@+id/buttonCalcularLinear"
         android:padding="16dp"
         android:textSize="16dp"
         android:text="CALCULAR"
